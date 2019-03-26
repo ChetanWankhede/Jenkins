@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-RUN apt-get update && apt-get install apache2 curl vim -y
+RUN apt-get update && apt-get install wget apache2 curl vim -y
 
 COPY index.html /var/www/html/
 
